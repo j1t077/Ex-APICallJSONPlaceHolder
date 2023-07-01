@@ -38,7 +38,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
 
 const input = document.createElement('input');
 const button = document.createElement('button');
-button.textContent = 'Buscar';
+button.textContent = 'Buscar ID';
 button.addEventListener('click', async () => {
   const userId = input.value;
   try {
